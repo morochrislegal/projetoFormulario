@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-body {
+.body {
    background-color: rgb(168, 247, 220);
 }
 h1 h2 h3 h4 h5 h6 {
@@ -29,7 +29,7 @@ p, label {
 
 .cabecalho {
   background-color: rgb(255, 255, 255);
-    height: 700px;
+    height: 800px;
     padding: 20px;
     
 }
@@ -40,6 +40,7 @@ p, label {
     margin: 0 auto;
     position: relative;
     top: -20px;
+    
 }
 .form-header {
   border-bottom: 1px solid #dfdfdf;
@@ -63,7 +64,7 @@ p, label {
   margin-bottom: 15px;
 
 }
-.form-body p{
+.form-body .p{
   margin-bottom: 20px;
 }
 
@@ -89,4 +90,17 @@ p, label {
 
 .btn-submit {
 margin-top: 15px;
+background-color: rgb(4, 255, 255);
+color: #000000;
+border: 15px solid transparent;
+width: 200px;
+height: 65px;
+cursor: pointer;
+text-transform: uppercase;
+transition: 0.5s;
+}
+.btn-submit:hover {
+  background-color: #d8f9fa;
+  color: rgb(0, 0, 0);
+  border-color: rgb(222, 250, 250);
 }
