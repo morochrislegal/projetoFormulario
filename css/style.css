@@ -98,7 +98,7 @@ text-transform: uppercase;
 transition: 0.5s;
 }
 .btn-submit:hover {
-  background-color: #d8f9fa;
-  color: rgb(0, 0, 0);
-  border-color: rgb(222, 250, 250);
+  background-color: #00f3fc69;
+  color: rgb(255, 255, 255);
+  border-color: rgba(99, 255, 255, 0.699);
 }
